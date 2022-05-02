@@ -17,6 +17,7 @@ import { RegisterUser } from "./pages/RegisterUser";
 import { LoginUser } from "./pages/LoginUser";
 import { UserSettings } from "./pages/UserSettings";
 import { ManageMenu } from "./pages/ManageMenu";
+import { Home } from "./pages/Home";
 
 const client = new ApolloClient({
   cache: new InMemoryCache(),
@@ -30,7 +31,7 @@ ReactDOM.render(
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<PageTemplate />}>
-              <Route index element={<FoodMenu />} />
+              <Route index element={<Home />} />
               <Route path="AboutUs" element={<AboutUs />} />
               <Route path="ContactInfo" element={<ContactInfo />} />
               <Route path="HrsOfOperation" element={<HrsOfOperation />} />
