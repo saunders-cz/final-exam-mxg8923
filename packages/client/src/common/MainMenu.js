@@ -28,6 +28,9 @@ export const MainMenu = () => {
           <Link to="/">Home</Link>
         </StyledItem>
         <StyledItem>
+          <Link to="/menu">Food Menu</Link>
+        </StyledItem>
+        <StyledItem>
           <Link to="/AboutUs">About Us</Link>
         </StyledItem>
         <StyledItem>
