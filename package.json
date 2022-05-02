@@ -1,11 +1,13 @@
 {
-  "name": "mgis-445-final-exam",
+  "name": "final-exam-mxg8923",
   "version": "1.0.0",
-  "description": "MGIS-445 Final Exam Gitpod Repo",
   "main": "index.js",
   "scripts": {
     "start": "lerna exec --parallel npm run start"
   },
-  "author": "C. Zoellick",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "lerna": "^4.0.0",
+    "nginx": "^1.0.6"
+  }
 }

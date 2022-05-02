@@ -1,19 +1,23 @@
 {
   "name": "server",
   "version": "1.0.0",
+  "description": "",
   "type": "module",
-  "description": "A demo GraphQL Server",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "C. Zoellick",
+  "author": "max gusinov",
   "license": "ISC",
   "dependencies": {
-    "apollo-server": "^3.6.6",
-    "graphql": "^16.3.0",
-    "sequelize": "^6.18.0",
-    "sqlite3": "^5.0.2"
+    "apollo-server": "^3.6.7",
+    "apollo-server-express": "^3.6.7",
+    "graphql-scalars": "^1.17.0",
+    "sequelize": "^6.17.0",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
